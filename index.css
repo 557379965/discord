@@ -29,7 +29,7 @@ header{
 
 
 header{
-    background-color: #7346b6;
+    background-color: rgb(69, 69, 184);
 }
 
 a{
@@ -59,6 +59,7 @@ a{
 
 
 .imagine{
+    color: white;
     position: absolute;
     transform:translate(500px, -500px);
     font-size: 35px;
@@ -71,6 +72,7 @@ a{
     width: 500px;
     position: absolute;
     transform: translate(400px, -400px);
+    color:white;
 }
 
 .flex-text{
@@ -174,6 +176,36 @@ footer{
     margin-left: 250px;
 }
 
+
+
+.background{
+    background-color: #222ca0;
+}
+
+
+
+
+
+.dropdown-link{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+.ready-text{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.blue{
+    background-color: #222ca0 !important;
+}
 
 
 
